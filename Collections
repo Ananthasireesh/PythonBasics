@@ -1,0 +1,16 @@
+
+#Python collections
+
+##############################Lists######################
+#A list is a collection which is ordered and changeable.
+##############declaration of lists######################
+#In Python lists are written with square brackets or we can use the list() command.
+
+MyClass=["punith","Abhirami","vatsala","Priyanka"]
+NewList=list(("Smita","Yogesh"))
+
+#The above list consists of a list with 6 strings, and in python the list starts from index 0
+
+print(MyClass[0]) # Gives First Element of the list
+print(MyClass[2]) # Gives the third element of the list 
+print(NewList[1]) # Gives me last element of list since we have only two elements 
