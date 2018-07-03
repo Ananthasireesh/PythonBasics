@@ -1,0 +1,64 @@
+#simple input And output
+person = input('Enter your name: ')
+print('Hello', person)
+'''Illustrate input and print.'''
+
+applicant = input("Enter the applicant's name: ")
+interviewer = input("Enter the interviewer's name: ")
+time = input("Enter the appointment time: ")
+print(interviewer, "will interview", applicant, "at", time)
+
+#output Formatting
+
+#This Code will give you space after the input 
+person = input('Enter your name: ')
+print('Hello', person, '!')
+#To avoid the above problem we exceute below code 
+person = input('Enter your name: ')
+print('Hello ', person, '!', sep='')
+#Numbers and strings 
+x = input("Enter a number: ")
+y = input("Enter a second number: ")
+print('The sum of ', x, ' and ', y, ' is ', x+y, '.', sep='') #error? No it took the input as string right?
+
+#To avoid taking input as string we need to covert it to int and then use numbers 
+xString = input("Enter a number: ")
+x = int(xString)
+yString = input("Enter a second number: ")
+y = int(yString)
+print('The sum of ', x, ' and ', y, ' is ', x+y, '.', sep='')
+
+#We can do immidiate conversion too 
+
+x = int(input("Enter a number: "))
+y = int(input("Enter a second number: "))
+print('The sum of ', x, ' and ', y, ' is ', x+y, '.', sep='')
+#Can you write same kind of code for Multiplication with 3 inputs 
+#Can you write same kind of code for Divison of two numbers?
+
+
+
+#String format operation
+person = input('Enter your name: ')
+greeting = 'Hello, {}!'.format(person)
+print(greeting)
+
+#or we can print it directly
+#String format operation
+person = input('Enter your name: ')
+print ('Hello, {}!'.format(person))
+
+#All the 3 statements below will give same type of output
+applicant = input("Enter the applicant's name: ")
+interviewer = input("Enter the interviewer's name: ")
+time = input("Enter the appointment time: ")
+print(interviewer + ' will interview ' + applicant + ' at ' + time +'.')
+print(interviewer, ' will interview ', applicant, ' at ', time, '.', sep='')
+print('{} will interview {} at {}.'.format(interviewer, applicant, time))
+
+#String format for Numeric values
+x = int(input("Enter an integer: "))
+y = int(input("Enter another integer: "))
+sum = x+y
+sentence = 'The sum of {} and {} is {}.'.format(x, y, sum)
+print(sentence)
