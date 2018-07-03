@@ -14,3 +14,30 @@ NewList=list(("Smita","Yogesh"))
 print(MyClass[0]) # Gives First Element of the list
 print(MyClass[2]) # Gives the third element of the list 
 print(NewList[1]) # Gives me last element of list since we have only two elements 
+#Lists can also be accsessed from back side as well
+#indexing from back starts from -1
+print(MyClass[-1]) #Gives the last element of the list
+print(MyClass[-3]) #Gives 3rd element from back side
+
+###########Slicing in Lists################
+#list slicing will have inclusive of left side element and exclusive of right side element
+print(MyClass[:2]) #Returns from 1st element to 3rd element
+print(MyClass[1:]) #Returns list from 2nd element to last element
+print(MyClass[1:3])#Returns list from 2nd element to last before element
+print(MyClass[0:-1])#returns whole list except last element
+#Functions for lists 
+print(len(MyClass)) #gives length of list
+#Append Function will append the element mentioned to end of the list
+MyClass.append(NewList)
+print(MyClass)
+#By mistake we have inserted previous list two times, can we remove it now?
+MyClass.remove(MyClass[4])
+print(MyClass)
+#del function can remove directly from index 
+del(MyClass[6]) #will delete 7th element
+print(MyClass)
+MyClass.count("Abhirami") #Returns how many times the mentioned name is repeted
+#insert is used to insert a specific value @ specific index
+MyClass.insert(5,"Antik") #inserts above value as 6th element
+print(MyClass)
+
