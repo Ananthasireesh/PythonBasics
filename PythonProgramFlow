@@ -1,1 +1,45 @@
+##############################Indentation in python################################
+#Python will not have baraces to start or end the loops or blocks
+#python will know start or end using the indentation only, so it is very important to write a correct indented code
+x=5
+y=6
+#simple function to add two numbers 
+def Add(a,b):
+    return a+b
+Add(x,y)  #Ends the funtion once you go back to same place 
+
+# Lets watch much more complex example for indentation
+#Print the number if it is odd, else say that it is even
+def OddorEven(a):                   #Shows start of function
+    if (a%2) == 0:                  #Shows start of if 
+        print("Number is even")
+    else:                           #shows start of else part, marks end of if 
+        print("Number is odd")      
+A=int(input("enter a number:"))     #marks end of the function 
+OddorEven(A)
+
+
+#############################################IF Stataements in Python########################################
+#The general Python syntax for a simple if statement is
+#if condition :
+#   indentedStatementBlock
+
+weight = float(input("How many pounds does your suitcase weigh? "))
+if weight > 50:       
+    print("There is a $25 charge for luggage that heavy.")
+print("Thank you for your business.")
+
+#The general Python if-else syntax is
+
+#if condition :
+#   indentedStatementBlockForTrueCondition
+#else:
+#   indentedStatementBlockForFalseCondition
+
+temperature = float(input('What is the temperature? '))
+if temperature > 70:
+    print('Wear shorts.')
+else:
+    print('Wear long pants.')
+print('Get some exercise outside.')
 
