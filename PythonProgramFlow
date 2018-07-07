@@ -43,3 +43,120 @@ else:
     print('Wear long pants.')
 print('Get some exercise outside.')
 
+
+#The general python if...elif...else syntax is 
+# In this program, 
+# we check if the number is positive or
+# negative or zero and 
+# display an appropriate message
+
+num = 3.4
+
+# Try these two variations as well:
+# num = 0
+# num = -4.5
+
+if num > 0:
+    print("Positive number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative number")
+    
+#Nested-if Statements 
+
+#We can have a if...elif...else statement inside another if...elif...else statement. 
+#This is called nesting in computer programming.
+
+#Any number of these statements can be nested inside one another. 
+#Indentation is the only way to figure out the level of nesting. 
+#This can get confusing, so must be avoided if we can.
+
+# In this program, we input a number
+# check if the number is positive or
+# negative or zero and display
+# an appropriate message
+# This time we use nested if
+
+num = float(input("Enter a number: "))
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive number")
+else:
+    print("Negative number")
+    
+    
+    #A while loop statement in Python programming language repeatedly executes a target statement
+#as long as a given condition is true.
+
+#The syntax of a while loop in Python programming language is −
+#while expression:
+#   statement(s)
+
+count = 0
+while (count < 9):
+   print ('The count is:', count)
+   count = count + 1
+
+print ("Good bye!")
+
+#While with else:
+
+#If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
+
+count = 0
+while count < 5:
+   print (count, " is  less than 5")
+   count = count + 1
+else:
+   print (count, " is not less than 5")
+   
+   
+#The for loop that is used to iterate over elements of a sequence, it is often 
+#used when you have a piece of code which you want to repeat "n" number of time. 
+computer_brands = ["Apple", "Asus", "Dell", "Samsung"]
+for brands in computer_brands:
+    print (brands)
+    
+    
+numbers = [1,10,20,30,40,50]
+sum = 0
+for numbers in numbers:
+    sum = sum + numbers
+print (sum)
+
+
+#Break Statement helps us to break the loop when ever you want explicitly
+#To break out from a loop, you can use the keyword "break". 
+for i in range(1,10):
+    if i == 3:
+        break
+    print (i)
+    
+#The continue statement is used to tell Python to skip the rest of the statements 
+#in the current loop block and to continue to the next iteration of the loop.
+for i in range(1,10):
+    n=i%2
+    if n == 1:
+       continue
+    else:
+       print("Hero")
+    print (i)
+    
+ #Assert statement only eavaluates expressions that are true, if the accompanying expression is false it throws assertion error
+#That follows the assert statement
+def KelvinToFahrenheit(Temperature):
+   assert (Temperature >= 0),"Colder than absolute zero!"
+   return ((Temperature-273)*1.8)+32
+
+
+A=KelvinToFahrenheit(505.78)
+print(A)
+B=KelvinToFahrenheit(-5)
+
+
+    
+
+
