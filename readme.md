@@ -2,7 +2,7 @@
 This Repo is all about learning the basics of python and moving ahead to an intermidiate level 
 
  **part-1: Start with Git/GitHub and learn basic syntax <br/>
-	Duration: 2 Days (3-4Hrs) <br /> ***
+	Duration: 2 Days (3-4Hrs) <br />**
  - basic Arthemetic operations 
  - Control and conditional structures 
  - Looping:- for and while loops 
@@ -13,7 +13,7 @@ This Repo is all about learning the basics of python and moving ahead to an inte
  - Type casting 
       
 **part-2: Inbuilt Data structures <br/>
-	Duration: 3 Days (6-7Hrs) <br/>***
+	Duration: 3 Days (6-7Hrs) <br/>**
 - Strings and inbuilt functions 
 - Lists and inbuilt functions 
 - sets and inbuilt functions 
@@ -25,7 +25,7 @@ This Repo is all about learning the basics of python and moving ahead to an inte
      
 
 **part-3: OOPS <br/>
-	Duration: 4 Days (8-9Hrs) <br/>***
+	Duration: 4 Days (8-9Hrs) <br/>**
 - classes 
 - Object 
 - Method 
@@ -34,8 +34,8 @@ This Repo is all about learning the basics of python and moving ahead to an inte
 - Data Abstration
 - Encapsulation  
 
-***part-4: Libraries with python <br/>
-	Duration: 2 Days (4Hrs) <br/> ***
+**part-4: Libraries with python <br/>
+	Duration: 2 Days (4Hrs) <br/>**
 - Numpy
 - pandas
 - matplotlib	
