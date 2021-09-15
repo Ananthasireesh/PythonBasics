@@ -3,14 +3,14 @@ This Repo is all about learning the basics of python and moving ahead to an inte
 
  part-1: Start with Git/GitHub and learn basic syntax <br/>
 	Duration: 2 Days (3-4Hrs) <br />
-    - basic Arthemetic operations 
-    - Control and conditional structures 
-    - Looping:- for and while loops 
-    - user input 
-    - Strings 
-    - Integers 
-    - Floating values 
-    - Type casting 
+ - basic Arthemetic operations 
+ - Control and conditional structures 
+ - Looping:- for and while loops 
+ - user input 
+ - Strings 
+ - Integers 
+ - Floating values 
+ - Type casting 
       
 part-2: Inbuilt Data structures 
 	Duration: 3 Days (6-7Hrs)
