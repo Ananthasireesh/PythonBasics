@@ -12,9 +12,10 @@ print("Addition of two variables a and b is:",c)
 d=a-b
 print("subtraction  of two variables a and b is:",d)
 #Division is python is given by operator "/" (this result will give only Quotient)
-e=a/b
+e=a/b 
 print("quotient of divison of two variables a and b is:",e)
-#To get only integer part of Quotient we can use "//" operator
+# C programming returns only interger as output but python returns float value
+#To get only integer part of Quotient we can use "//" (also called floor division) operator
 f=a//b
 print("Integer quotient of divison of two variables a and b is:",f)
 #To get the reminder of divison we can use "%" operator 
